@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas | Agencia de Viajes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">TravelGo</a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="ofertas.html">Promociones</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Ofertas exclusivas por tiempo limitado</h1>
+        <p>
+          Hasta 40% de descuento en los destinos más soñados. Encuentra el
+          paquete perfecto para tu próxima aventura.
+        </p>
+        <a href="#ofertas" class="btn">Ver ofertas</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="playa">Playa</button>
+      <button class="filter-btn" data-filter="ciudad">Ciudad</button>
+      <button class="filter-btn" data-filter="aventura">Aventura</button>
+      <button class="filter-btn" data-filter="cultura">Cultura</button>
+    </section>
+
+    <section class="services" id="ofertas">
+      <h2>Nuestras mejores ofertas</h2>
+
+      <div class="cards-container">
+        <article class="card offer-card" data-category="playa">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Cancún">
+          <span class="discount">-35%</span>
+          <div class="offer-body">
+            <h3>Cancún, México</h3>
+            <p>Playas de arena blanca, aguas turquesas y la vibrante vida nocturna del Caribe mexicano.</p>
+            <div class="price">
+              <span class="old-price">$1,850 USD</span>
+              <span class="new-price">$1,199 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+
+        <article class="card offer-card" data-category="ciudad cultura">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80" alt="París">
+          <span class="discount">-25%</span>
+          <div class="offer-body">
+            <h3>París, Francia</h3>
+            <p>Arte, gastronomía, la Torre Eiffel y una romanticidad inigualable en la Ciudad de la Luz.</p>
+            <div class="price">
+              <span class="old-price">$2,400 USD</span>
+              <span class="new-price">$1,799 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+
+        <article class="card offer-card" data-category="aventura cultura">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1526392060635-9d6019884377?w=600&q=80" alt="Machu Picchu">
+          <span class="discount">-30%</span>
+          <div class="offer-body">
+            <h3>Machu Picchu, Perú</h3>
+            <p>Descubre la maravilla del mundo inca en los Andes, una experiencia arqueológica única.</p>
+            <div class="price">
+              <span class="old-price">$2,100 USD</span>
+              <span class="new-price">$1,470 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+
+        <article class="card offer-card" data-category="ciudad cultura">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80" alt="Tokio">
+          <span class="discount">-20%</span>
+          <div class="offer-body">
+            <h3>Tokio, Japón</h3>
+            <p>Tecnología, tradición y gastronomía de clase mundial en una metrópolis que nunca para.</p>
+            <div class="price">
+              <span class="old-price">$3,500 USD</span>
+              <span class="new-price">$2,799 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+
+        <article class="card offer-card" data-category="playa">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80" alt="Maldivas">
+          <span class="discount">-40%</span>
+          <div class="offer-body">
+            <h3>Maldivas</h3>
+            <p>Villas sobre el agua, arrecifes de coral y puestas de sol impresionantes.</p>
+            <div class="price">
+              <span class="old-price">$6,200 USD</span>
+              <span class="new-price">$3,720 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+
+        <article class="card offer-card" data-category="aventura">
+          <img class="offer-img" src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80" alt="Patagonia">
+          <span class="discount">-30%</span>
+          <div class="offer-body">
+            <h3>Patagonia, Argentina</h3>
+            <p>Glaciares imponentes y naturaleza salvaje en uno de los paisajes más espectaculares.</p>
+            <div class="price">
+              <span class="old-price">$2,800 USD</span>
+              <span class="new-price">$1,960 USD</span>
+            </div>
+            <a href="#" class="btn">Reservar</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 TravelGo. Todos los derechos reservados.</p>
+    <p>Proyecto académico - Sitio web de agencia de viajes</p>
+  </footer>
+
+  <script>
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const offerCards = document.querySelectorAll('.offer-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+        offerCards.forEach(card => {
+          const cats = card.dataset.category || '';
+          card.style.display = (filter === 'all' || cats.includes(filter)) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
