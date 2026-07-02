@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactos | TravelGo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">TravelGo</a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="ofertas.html">Promociones</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Estamos listos para ayudarte</h1>
+        <p>Cuéntanos tus planes y recibe la mejor asesoría para tu próxima aventura.</p>
+        <a href="#contacto" class="btn">Enviar mensaje</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Contáctanos</h2>
+      <p>Completa el formulario y nuestro equipo se pondrá en contacto contigo lo antes posible.</p>
+    </section>
+
+    <section class="services" id="contacto">
+      <div class="cards-container">
+        <article class="card">
+          <h3>Formulario de contacto</h3>
+          <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" required placeholder="¿En qué podemos ayudarte?">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Describe tu consulta o solicitud"></textarea>
+
+            <button type="submit" class="btn">Enviar mensaje</button>
+          </form>
+        </article>
+
+        <article class="card">
+          <h3>Información adicional</h3>
+          <p>También puedes contactarnos por otros medios si lo prefieres.</p>
+          <ul>
+            <li><strong>Email:</strong> info@travelgo.com</li>
+            <li><strong>Teléfono:</strong> +51 987 654 321</li>
+            <li><strong>Ubicación:</strong> Monterrey, México</li>
+          </ul>
+          <p>Síguenos en redes sociales para recibir promociones y novedades exclusivas.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 TravelGo. Todos los derechos reservados.</p>
+    <p>Proyecto académico - Sitio web de agencia de viajes</p>
+  </footer>
+</body>
+</html>
